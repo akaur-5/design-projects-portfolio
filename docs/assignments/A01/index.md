@@ -165,4 +165,7 @@ I will customize the portfolio's color scheme to use blue and white as the prima
 Every assignment and project will clearly document the engineering problem, any relevant analysis and evidence, decisions made and their justification, along with the final result. This will be conducted with enough detail so that another engineering reader can understand, evaluate and reproduce my work without relying on information that is not included in the portfolio. 
 
 ## Communicate
+### About Me 
+Arsh Kaur 
+
 
