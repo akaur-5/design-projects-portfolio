@@ -1,4 +1,4 @@
-<h1 style="color: white; font-weight: 700; background-color: navy; font-size: 2 rem">
+<h1 style="color: white; font-weight: 700; background-color: navy;>
     About Me
 </h1>
 
