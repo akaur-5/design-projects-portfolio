@@ -1,7 +1,8 @@
 # A1 – Build Your Professional Portfolio
 
 ## Objective
-
+#### The objective of this Portfolio is to document my development as an engineer. This will be a demonstration of how I an able to analyze engineering problems, make and defend decisions throughout the design process, and communicate technical information to a general audience. Rather than presenting only projects, this will allow the viewer an insight on the reasoning, assumptions, evidence and decisions made throughout my work. 
+### This page is organized around three core stages of engineering practices: Analyze, Decide and Communicate. The Analysis section demonstrates how problems are investigated and the development of technical understanding. The Decision section explains how alternatives are evaluates and provide a justification for design choices. The Communication section presents the results in a clear format for the intended audience. 
 
 ## Analyze 
 ### Task A - Portfolio Analysis 
