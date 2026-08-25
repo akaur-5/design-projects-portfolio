@@ -112,7 +112,7 @@ This assumption allows the screwdriver to be modeled primarily as a torque-trans
 #### Component Geometry and Its Mechanical Function
 Handle 
 
-![IKEA screwdriver handle](images/IKEA_SD_HANDLE.HEIC)
+![IKEA screwdriver handle](docs/assignments/A01/IKEA_SD_HANDLE.jpg)
 
 The handle has a larger diameter than the shaft, allowing the user to apply force at a greater distance from the rotational axis. According to T = Fr, this increases the torque that can be generated for a given applied force.
 
@@ -120,7 +120,7 @@ The handle geometry also serves an ergonomic purpose by providing a surface that
 
 Shaft / Bit Holder
 
-![IKEA screwdriver shaft](images/IKEA_SD_SHAFT.HEIC)
+![IKEA screwdriver shaft](docs/assignments/A01/IKEA_SD_SHAFT.jpg)
 
 The shaft and bit holder transfer torque from the handle to the selected driver bit. The shaft must have sufficient torsional strength to resist deformation while remaining compact enough for practical use.
 
@@ -128,7 +128,7 @@ The bit-holder geometry also needs to securely retain the interchangeable bit wh
 
 Interchangeable Driver Bit
 
-![IKEA screwdriver bits](images/IKEA_SD_BITS.HEIC)
+![IKEA screwdriver bits](docs/assignments/A01/IKEA_SD_BITS.jpg)
 
 The driver bit directly interfaces with the fastener and transfers the torque supplied by the screwdriver into the fastener head. Its geometry is determined by the type and size of fastener it is designed to engage.
 
