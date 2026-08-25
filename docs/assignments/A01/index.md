@@ -27,10 +27,32 @@ Professional Tone: The portfolio communicates the author's technical skills, edu
 ### Task B: Product Analysis 
 The product selected for this analysis is an IKEA multi-bit screwdriver, a hand-operated mechanical tool designed to driver and remove fasteners with different head configurations. Unlike a conventional screwdriver with a permanently attached tip, the multi-bit design allows the user to select and replace the driver bit depending on the fastener being operated. This is useful because it allows one tool to perform the function of several conventional screwdrivers. 
 
-#### Primary Function 
-#### Governing Model 
+The screwdriver can be analyzed as three primary component groups:
+
+Handle
+Shaft/bit holder
+Interchangeable driver bit
+
+Although the tool contains multiple individual bits, the bits are treated as a single component category because each bit performs the same functional role and is interchangeable within the screwdriver. This analysis focuses on how the geometry and interaction of these three components allow the screwdriver to transmit torque from the user's hand to a fastener.
+
+Primary Function 
+The primary function of the screwdriver is:
+
+To transmit an applied torque from the user's hand to a fastener through the handle, shaft, and driver bit in order to rotate the fastener.
+
+Governing Model 
+The basic mechanical relationship governing this function is:
+
+T=Fr
+
+where:
+
+T = applied torque (N⋅m)
+F = force applied by the user's hand (N)
+r = perpendicular distance from the axis of rotation to the applied force (m)
+
 ##### Model and Identify Variables 
-##### Assumption that males the model valid for this product 
+##### Assumption that makes the model valid for this product 
 #### Geometrical Component Affects on Mechanical Function
 #### Patent Number and Author 
 ##### Two Alternative Solutions 
