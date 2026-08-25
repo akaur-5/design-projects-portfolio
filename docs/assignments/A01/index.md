@@ -72,13 +72,24 @@ The shaft is primarily subjected to torsional loading during operation. The resu
 where:
 
 τ = torsional shear stress
+
 T = applied torque
+
 r = radial distance from the shaft's center
+
 J = polar moment of inertia
 
 For a solid circular shaft:
 
 J = πd^4/32
+
+where 
+
+J = polar moment of inertia
+
+π = mathematical constant 
+
+d = diameter
 
 This relationship shows that shaft diameter has a significant influence on resistance to torsional deformation.
 
