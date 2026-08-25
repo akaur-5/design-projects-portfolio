@@ -37,7 +37,7 @@ Interchangeable driver bit
 
 Although the tool contains multiple individual bits, the bits are treated as a single component category because each bit performs the same functional role and is interchangeable within the screwdriver. This analysis focuses on how the geometry and interaction of these three components allow the screwdriver to transmit torque from the user's hand to a fastener.
 
-####Primary Function 
+#### Primary Function 
 The primary function of the screwdriver is:
 
 To transmit an applied torque from the user's hand to a fastener through the handle, shaft, and driver bit in order to rotate the fastener for installation or removal. 
@@ -82,7 +82,7 @@ J = πd^4/32
 
 This relationship shows that shaft diameter has a significant influence on resistance to torsional deformation.
 
-##### Mechanical Model and Identify Variables 
+#### Mechanical Model and Identify Variables 
 
 The user applies a tangential force to the screwdriver handle. Because this force acts at a distance from the rotational axis, it produces torque. The handle transfers this torque to the shaft, which transfers it to the selected driver bit. The driver bit then transfers it to the fastener, allowing it to be fastened/removed. 
 
@@ -123,7 +123,7 @@ This patent is relevant to the IKEA screwdriver because both designs use the con
 
 [View U.S. Patent No. 6,502,484](https://patents.google.com/patent/US6502484B2/en)
 
-##### Alternative Solutions 
+#### Alternative Solutions 
 Fixed-Tip Screwdriver 
 
 A conventional fixed-tip screwdriver accomplishes the same primary function of transmitting torque to a fastener but uses a permanently attached driver tip. This design has fewer components and eliminates the need for an interchangeable connection. However, each screwdriver is limited to a particular tip configuration, requiring users to own multiple screwdrivers for different fasteners.
@@ -133,7 +133,7 @@ A ratcheting multi-bit driver also uses interchangeable bits but incorporates a 
 
 Comparison: These alternatives demonstrate that the same primary function can be achieved through different mechanical designs. The fixed-tip screwdriver prioritizes simplicity, while the ratcheting multi-bit driver prioritizes functionality. The IKEA multi-bit screwdriver occupies a middle ground by providing interchangeable bits while maintaining a relatively simple mechanical system.
 
-##### Design Decision
+#### Design Decision
 
 One significant decision in the IKEA screwdriver is the integration of the interchangeable driver bits rather than a permanently attached tip. I believe this decision was made to increase the versatility of the tool while reducing the number of separate components required by the user. 
 
@@ -146,8 +146,10 @@ Based on the primary function, governing torque relationship, component geometry
 ## Decide 
 ##### Homepage Identity 
 The homepage is designed to give a visitor an immediate understanding of the purpose, organization, and professional standard of this engineering portfolio. Because the intended readers may include instructors, engineers, and potential employers, the homepage should allow them to quickly identify what type of engineering work is documented and locate the information relevant to them without unnecessary navigation. The portfolio will therefore use structure to organize the engineering work and maintain a consistent navigation system throughout the site. Individual projects and assignments will be clearly labeled and organized into descriptive subsections so that a reader can efficiently navigate to specific technical content. The homepage will also include an About Me section that provides the professional context necessary for the reader to understand the author of the work, while the remainder of the site focuses on documenting the engineering process and supporting evidence.
+
 ##### Intentional Customization 
 I will customize the portfolio's color scheme to use blue and white as the primary colors. This change is intended to improve visual clarity and maintain a professional appearance without distracting the reader from the technical information. Blue will be used selectively for headings, navigation elements, and other visual indicators, while white will provide a clean background that maintains contrast and readability. This better supports the requirement for technical information to be communicated clearly because the visual design establishes hierarchy without competing with the content. The default template did not provide the same intentional visual hierarchy for distinguishing important sections, so the blue-and-white scheme will provide a consistent visual system throughout the portfolio.
+
 ##### Documentation Standard 
 Every assignment and project will clearly document the engineering problem, any relevant analysis and evidence, decisions made and their justification, along with the final result. This will be conducted with enough detail so that another engineering reader can understand, evaluate and reproduce my work without relying on information that is not included in the portfolio. 
 
