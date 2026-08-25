@@ -19,6 +19,8 @@
 ##### Evidence of Reasoning: The portfolio presents each project with descriptions of what was developed and supporting context surrounding the work. The development process and design decisions are justified for most of the projects presented in the portfolio.
 ##### Professional Tone: The portfolio communicates the author's technical skills, education, engineering projects, and professional interests. The author maintains an appropriate tone and uses professional language throughout the portfolio, which is further enhanced by the overall organization and presentation of the site.
 
+### Task B: Product Analysis 
+
 
 ## Communicate
 
