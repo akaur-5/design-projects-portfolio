@@ -27,7 +27,7 @@ Professional Tone: The portfolio communicates the author's technical skills, edu
 ### Task B: Product Analysis 
 The product selected for this analysis is an IKEA multi-bit screwdriver, a hand-operated mechanical tool designed to driver and remove fasteners with different head configurations. Unlike a conventional screwdriver with a permanently attached tip, the multi-bit design allows the user to select and replace the driver bit depending on the fastener being operated. This is useful because it allows one tool to perform the function of several conventional screwdrivers. 
 
-![IKEA multi-bit screwdriver](docs/assignments/A01/IKEA_SD.jpg)
+![IKEA multi-bit screwdriver](IKEA_SD.jpg)
 
 The screwdriver can be analyzed as three primary component groups:
 
@@ -112,7 +112,7 @@ This assumption allows the screwdriver to be modeled primarily as a torque-trans
 #### Component Geometry and Its Mechanical Function
 Handle 
 
-![IKEA screwdriver handle](docs/assignments/A01/IKEA_SD_HANDLE.jpg)
+![IKEA screwdriver handle](IKEA_SD_HANDLE.jpg)
 
 The handle has a larger diameter than the shaft, allowing the user to apply force at a greater distance from the rotational axis. According to T = Fr, this increases the torque that can be generated for a given applied force.
 
