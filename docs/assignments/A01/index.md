@@ -13,7 +13,7 @@
 ##### Evidence of Reasoning: The portfolio communicates the projects and interests of the engineer, however the emphasis on presenting the work rather than the documentation of the decisions made throughout the design process. 
 ##### Professional Tone: The author maintains appropriate language throughout the portfolio, fit for an engineering audience while focusing on their academic background, engineering interests and technical projects. 
 
-#### Portfolio 2 - Nathan Sivalingam 
+#### Portfolio 2 - [Nathan Sivalingam's Engineering Portfolio](https://engineering-portfolio-website.vercel.app/)
 
 ## Decide
 
