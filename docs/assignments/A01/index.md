@@ -1,6 +1,6 @@
-<h1 style="color: white; font-weight: 700; background-color: navy;>
-    A1 – Build Your Professional Portfolio
-</h1>
+<div style="background-color: navy; color: white; padding: 20px; text-align: center;">
+  <h1>A1 – Build Your Professional Portfolio</h1>
+</div>
 
 ## Objective
 The objective of this Portfolio is to document my development as an engineer. This will be a demonstration of how I am able to analyze engineering problems, make and defend decisions throughout the design process, and communicate technical information to a general audience. Rather than presenting only projects, this will allow the viewer an insight on the reasoning, assumptions, evidence and decisions made throughout my work. 
