@@ -27,7 +27,9 @@ Professional Tone: The portfolio communicates the author's technical skills, edu
 ### Task B: Product Analysis 
 The product selected for this analysis is an IKEA multi-bit screwdriver, a hand-operated mechanical tool designed to driver and remove fasteners with different head configurations. Unlike a conventional screwdriver with a permanently attached tip, the multi-bit design allows the user to select and replace the driver bit depending on the fastener being operated. This is useful because it allows one tool to perform the function of several conventional screwdrivers. 
 
-![IKEA multi-bit screwdriver](IKEA_SD.jpg)
+<div style="text-align: center;">
+  <img src="IKEA_SD.jpg" alt="IKEA multi-bit screwdriver" style="width: 400px; border: 3px solid black;">
+</div>
 
 The screwdriver can be analyzed as three primary component groups:
 
@@ -112,7 +114,9 @@ This assumption allows the screwdriver to be modeled primarily as a torque-trans
 #### Component Geometry and Its Mechanical Function
 Handle 
 
-![IKEA screwdriver handle](IKEA_SD_HANDLE.jpg)
+<div style="text-align: center;">
+  <img src="IKEA_SD_HANDLE.jpg" alt="IKEA screwdriver handle" style="width: 400px; border: 3px solid black;">
+</div>
 
 The handle has a larger diameter than the shaft, allowing the user to apply force at a greater distance from the rotational axis. According to T = Fr, this increases the torque that can be generated for a given applied force.
 
@@ -120,7 +124,9 @@ The handle geometry also serves an ergonomic purpose by providing a surface that
 
 Shaft / Bit Holder
 
-![IKEA screwdriver shaft](IKEA_SD_SHAFT.jpg)
+<div style="text-align: center;">
+  <img src="IKEA_SD_SHAFT.jpg" alt="IKEA screwdriver shaft" style="width: 400px; border: 3px solid black;">
+</div>
 
 The shaft and bit holder transfer torque from the handle to the selected driver bit. The shaft must have sufficient torsional strength to resist deformation while remaining compact enough for practical use.
 
@@ -128,7 +134,9 @@ The bit-holder geometry also needs to securely retain the interchangeable bit wh
 
 Interchangeable Driver Bit
 
-![IKEA screwdriver bits](IKEA_SD_BITS.jpg)
+<div style="text-align: center;">
+  <img src="IKEA_SD_BITS.jpg" alt="IKEA screwdriver bits" style="width: 400px; border: 3px solid black;">
+</div>
 
 The driver bit directly interfaces with the fastener and transfers the torque supplied by the screwdriver into the fastener head. Its geometry is determined by the type and size of fastener it is designed to engage.
 
