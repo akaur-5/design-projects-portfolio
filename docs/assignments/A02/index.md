@@ -3,23 +3,23 @@
 </div>
 
 ## Objective
-Design a lightweight planar truss using A500 steel or an alternative material.
+- Design a lightweight planar truss using A500 steel or an alternative material.
 
-Create free body diagrams (FBDs) for joints and critical pins.
+- Create free body diagrams (FBDs) for joints and critical pins.
 
-Calculate the required cross-sectional area of truss elements with a safety factor.
+- Calculate the required cross-sectional area of truss elements with a safety factor.
 
-Determine pin sizes based on shear forces with a safety factor.
+- Determine pin sizes based on shear forces with a safety factor.
 
-Solve equations symbolically and numerically for both truss and pin design.
+- Solve equations symbolically and numerically for both truss and pin design.
 
-Estimate the total weight of the truss and pins.
+- Estimate the total weight of the truss and pins.
 
-Create a CAD model with accurate dimensions and connections.
+- Create a CAD model with accurate dimensions and connections.
 
-Compare CAD weight predictions with hand calculations.
+- Compare CAD weight predictions with hand calculations.
 
-Document key engineering lessons learned from the process.
+- Document key engineering lessons learned from the process.
 
 ## Analyze
 #### Description
@@ -90,6 +90,21 @@ The additional diagonal divides the rectangle into two separate triangles, this 
 
 Moreover, supports provide additional stability to the overall structure. A pin support provides two reaction components, while a roller support provides one reaction component. Together, the three reaction components prevent rigid-body translation and rotation of the truss. 
 
+##### Static Determinacy
+Static Determinacy refers to a condition in engineering where the forces and reactions in a structure can be determined solely using the equations of static equilibrium. This means that the number of support reactions and internal forces is sufficient to solve for all unknowns without needing additional information. If a structure has more unknowns than can be solved using equilibrium equations, it is considered statically indeterminate. 
+
+For a planar truss, the determinacy condition can be checking using the following equation: 
+
+m + r = 2j 
+
+where:
+m = number of truss members 
+
+r = number of external support reaction components 
+
+j = number of joints 
+
+(Note: the applied loading does not factor into r because they are classified as externally applied forces rather than support reactions)
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
