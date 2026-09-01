@@ -42,6 +42,7 @@ The design should minimize weight while satisfying the required safety factor.
 <div style="text-align: center;">
   <img src="A2_Design_Constraint.png" alt="Design_Constraint" style="width: 400px; border: 3px solid black;">
 </div>
+
 P = Choose a value between 20 - 30 kN 
 
 a = 0.4m
@@ -51,6 +52,43 @@ b - 0.3m
 Point A = Pin 
 
 Point B = Roller
+
+#### Background Knowledge 
+##### What is a Truss? 
+A truss is a structural framework made of straight members connected at joints. In an ideal truss, members are assumed to be connected by frictionless pins, meaning that each member carries either tension or compression. These members work in unison to transfer externally applied loads to supports.
+
+Key Characteristics: 
+
+1. Shape: the design of the truss is crucial as it prevents distortion under stress and offers stability to the structure.
+2. Load: trusses are designed to carry axial loads (meaning the forces are balanced along the length of the members).
+3. Material: trusses can be composed of various materials, the material composition affects the performance of the overall design.
+   
+Trusses are essential in engineering and architecture for creating lightweight yet strong structures that can support a significant loading across a large spaces. Trusses are commonly used in applications such as bridges, roofs, towers, etc. 
+
+##### Truss Stability 
+A truss must be geometrically stable so that it can support applied loads without deformation (changing shape or behaving like a mechanism). Triangular arrangements are commonly used since it maintains it's shape and the member lengths remain fixed. 
+
+Why Triangles are stronger and more stable than rectangles: 
+
+Triangular geometry makes a truss stable because when a force is applied to one point, the three members work in unison to resist the load primarily through tension and compression. 
+
+Example: 
+
+If a downward force is applied at point A, the force is transferred through the two angled members towards point B and point C. One of more members experience compression, while others experience tension, allowing these forces to balance out within themselves. Since all three sides are connected, the triangle cannot change shape without changing the length of at least one member. 
+
+In comparison rectangles behave differently, if a sideways force is applied to a rectangle it can deform into a parallelogram without changing the length of the members. 
+
+Example: 
+
+If a sideways force is applied to point D, the joints can rotate while the four members remain approximately the same length. This means that a rectangle by itself does not have enough geometric constraint to maintain it's original shape. This also allows the members to experience significant bending when the joints are not properly braced. 
+
+This issue can be easily combated by simply adding a diagonal member to the truss design. 
+
+Example: 
+
+The additional diagonal divides the rectangle into two separate triangles, this change prevents the structure from easily deforming into a parallelogram because the diagonal member constraints the relative position of the joints.  
+
+Moreover, supports provide additional stability to the overall structure. A pin support provides two reaction components, while a roller support provides one reaction component. Together, the three reaction components prevent rigid-body translation and rotation of the truss. 
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
