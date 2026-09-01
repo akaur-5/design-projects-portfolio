@@ -1,4 +1,6 @@
-# A2 – Truss Stress Analysis
+<div style="background-color: navy; color: white; padding: 20px; text-align: center;">
+  <h1>A2 – Truss Stress Analysis</h1>
+</div>
 
 ## Objective
 Design a lightweight planar truss using A500 steel or an alternative material.
@@ -37,7 +39,9 @@ Truss must remain stable and struturally sound under the applied loading.
 The design should minimize weight while satisfying the required safety factor. 
 
 #### Force and Geometric Constrains
-
+<div style="text-align: center;">
+  <img src="A2_Design_Constraint.png" alt="Design_Constraint" style="width: 400px; border: 3px solid black;">
+</div>
 P = Choose a value between 20 - 30 kN 
 
 a = 0.4m
