@@ -1,4 +1,4 @@
-<div style="background-color: navy; color: white; padding: 20px; text-align: center;">
+<div style=" color: navy; padding: 20px; text-align: center;">
   <h1>A2 – Truss Stress Analysis</h1>
 </div>
 
