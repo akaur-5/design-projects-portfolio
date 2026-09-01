@@ -47,14 +47,16 @@ P = Choose a value between 20 - 30 kN
 
 a = 0.4m
 
-b - 0.3m 
+b = 0.3m 
 
 Point A = Pin 
 
 Point B = Roller
 
 #### Background Knowledge 
+
 ##### What is a Truss? 
+
 A truss is a structural framework made of straight members connected at joints. In an ideal truss, members are assumed to be connected by frictionless pins, meaning that each member carries either tension or compression. These members work in unison to transfer externally applied loads to supports.
 
 Key Characteristics: 
@@ -65,7 +67,9 @@ Key Characteristics:
    
 Trusses are essential in engineering and architecture for creating lightweight yet strong structures that can support a significant loading across a large spaces. Trusses are commonly used in applications such as bridges, roofs, towers, etc. 
 
+
 ##### Truss Stability 
+
 A truss must be geometrically stable so that it can support applied loads without deformation (changing shape or behaving like a mechanism). Triangular arrangements are commonly used since it maintains it's shape and the member lengths remain fixed. 
 
 Why Triangles are stronger and more stable than rectangles: 
@@ -90,7 +94,9 @@ The additional diagonal divides the rectangle into two separate triangles, this 
 
 Moreover, supports provide additional stability to the overall structure. A pin support provides two reaction components, while a roller support provides one reaction component. Together, the three reaction components prevent rigid-body translation and rotation of the truss. 
 
+
 ##### Static Determinacy
+
 Static Determinacy refers to a condition in engineering where the forces and reactions in a structure can be determined solely using the equations of static equilibrium. This means that the number of support reactions and internal forces is sufficient to solve for all unknowns without needing additional information. If a structure has more unknowns than can be solved using equilibrium equations, it is considered statically indeterminate. 
 
 For a planar truss, the determinacy condition can be checking using the following equation: 
@@ -98,13 +104,41 @@ For a planar truss, the determinacy condition can be checking using the followin
 m + r = 2j 
 
 where:
+
 m = number of truss members 
 
 r = number of external support reaction components 
 
 j = number of joints 
 
-(Note: the applied loading does not factor into r because they are classified as externally applied forces rather than support reactions)
+(Note: the applied loads do not factor into r because they are classified as externally applied forces rather than support reactions)
+
+
+##### Static Equilibrium 
+
+Static Equilibrium refers to the state where the sum of forces and moments acting on the truss is zero, this ensures that the structure remains at rest. This condition allows for the determination of internal forces within the truss members. 
+
+A truss is analyzed using three equations of equilibrium: 
+
+∑Fx=0
+
+∑Fy=0
+
+∑Fz=0
+
+These equations are used to first determine the external support reactions, and then to determine the internal forces within each individual truss member. At each joint, the forces in the connected members can be separated into horizonal and vertical components, this can then be used to solve for unknown values since each joint is in equilibrium. The equilibrium conditions must be satisfied in all directions for a truss to be stable. 
+
+
+##### Tension and Compression
+
+The internal forces in a truss member can be in either tension or compression. 
+
+Tension occurs when the member is being pulled apart. (+)
+
+Compression occurs when the member is being pushed together. (-)
+
+For analysis of internal forces, we can initially assume the unknown member is in tension. If the resulting force is positive, the assumption is correct. If the calculated internal force is negative, the member is actually experiencing compression. 
+
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
