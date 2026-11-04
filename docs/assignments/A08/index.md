@@ -137,7 +137,7 @@ If the gear train is ideal, then $HP_{in} = HP_{out}$. In an actual gearbox, fri
 This is significant because the gear forces are what create bending in the shafts. When two spur gears mesh, the teeth exert a force on one another. This contact force can be resolved into two components:
 
 <div style="text-align: center;">
-  <img src="A8_gear_tooth_force.jpg" alt="Gear Force" style="width: 400px; border: 3px solid black;">
+  <img src="A8gear_tooth_force.jpg" alt="Gear Force" style="width: 400px; border: 3px solid black;">
 </div>
 
 1. Tangential Force ($F_t$)
