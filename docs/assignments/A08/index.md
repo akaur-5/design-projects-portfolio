@@ -160,6 +160,189 @@ This is significant because the gear forces are what create bending in the shaft
    F_r = F_t \tan(\phi)
    $$
 
-## Decide
+Total tooth Force (F_n)= F_t/cos(phi)
 
+These forces are important because the tangential force produces torque and contributes to shaft bending. Radial force produces a seperating load and also contributes to shaft bending. The bearings react to the forces transmitted through the shafts. 
+
+
+<h5 style="font-size: 18px; color: navy;">Shaft Design and Stress Analysis</h5>
+
+Shafts transmit rotational power while supporting components such as gears and bearings. They experience two primary types of loading: torsion from transmitted torque and bending from gear forces.
+
+**1. Torsional Shear Stress**
+
+Torsion occurs when torque causes a shaft to twist.
+
+$$
+\tau_{max} = \frac{Tc}{J}
+$$
+
+For a solid circular shaft:
+
+$$
+\tau_{max} = \frac{16T}{\pi d^3}
+$$
+
+**2. Bending Stress**
+
+Bending occurs when transverse forces act on the shaft, causing it to deflect.
+
+$$
+\sigma_b = \frac{Mc}{I}
+$$
+
+For a solid circular shaft:
+
+$$
+\sigma_b = \frac{32M}{\pi d^3}
+$$
+
+**3. Combined Stress**
+
+Since the shafts experience both bending and torsion, their combined stress must be evaluated. The Von Mises failure criterion can be used to determine the equivalent stress.
+
+$$
+\sigma_{VM} = \sqrt{\sigma_b^2+3\tau^2}
+$$
+
+**4. Factor of Safety**
+
+The factor of safety compares the material's yield strength with the calculated equivalent stress.
+
+$$
+n = \frac{S_y}{\sigma_{VM}}
+$$
+
+Where:
+- $\tau$ = torsional shear stress (psi)
+- $\sigma_b$ = bending stress (psi)
+- $\sigma_{VM}$ = Von Mises stress (psi)
+- $T$ = applied torque (in-lbf)
+- $M$ = maximum bending moment (in-lbf)
+- $d$ = shaft diameter (in)
+- $S_y$ = material yield strength (psi)
+
+Free-body diagrams (FBDs) and static equilibrium equations are used to determine bearing reactions and bending moments. The calculated stresses are compared against the material's allowable strength to determine whether the specified shaft diameters are sufficient.
+
+<h5 style="font-size: 18px; color: navy;">Journal Bearing Design</h5>
+
+Journal bearings are cylindrical sleeves that support rotating shafts through sliding contact. They maintain shaft alignment while reducing friction and wear.
+
+The primary design considerations include bearing pressure, sliding velocity, and the pressure-velocity (PV) rating.
+
+**1. Projected Bearing Pressure**
+
+Bearing pressure is calculated using the radial load divided by the projected bearing area.
+
+$$
+P = \frac{W}{LD}
+$$
+
+**2. Sliding Velocity**
+
+Sliding velocity describes how quickly the shaft surface moves against the stationary bearing.
+
+$$
+V = \frac{\pi Dn}{12}
+$$
+
+**3. Pressure-Velocity Rating**
+
+The PV value combines bearing pressure and sliding velocity to evaluate bearing operating conditions.
+
+$$
+PV = P \times V
+$$
+
+Where:
+- $P$ = projected bearing pressure (psi)
+- $W$ = radial bearing load (lbf)
+- $L$ = bearing length (in)
+- $D$ = shaft diameter (in)
+- $V$ = sliding velocity (ft/min)
+- $n$ = rotational speed (rpm)
+
+The calculated PV value must remain within the manufacturer's allowable rating for the selected bearing material and operating conditions.
+
+**4. Bearing Material and Thickness**
+
+Bearing materials are selected based on wear resistance, friction, lubrication requirements, temperature limitations, and allowable PV ratings. Common materials include bronze, oil-impregnated bronze, and engineered polymers.
+
+The bearing wall thickness is determined by evaluating the stresses acting on the sleeve and ensuring sufficient material strength.
+
+For a cylindrical sleeve:
+
+$$
+t = \frac{D_o-D_i}{2}
+$$
+
+Where:
+- $t$ = bearing wall thickness (in)
+- $D_o$ = bearing outside diameter (in)
+- $D_i$ = bearing inside diameter (in)
+
+The final thickness must also account for the loading model and structural requirements specified in the course.
+
+<h5 style="font-size: 18px; color: navy;">Mechanical Fits and Tolerances</h5>
+
+Mechanical fits determine how two components interact when assembled. Proper fits are necessary to maintain alignment, prevent unwanted movement, and allow components to operate as intended.
+
+The gearbox requires two primary fits:
+
+1. **Press Fit (Interference Fit):** The shaft diameter is larger than the gear hub bore, securing the gear to the shaft and preventing relative rotation.
+
+2. **Running Clearance Fit:** The bearing bore is slightly larger than the shaft diameter, allowing the shaft to rotate freely.
+
+**Diametral Clearance:**
+
+$$
+C_d = D_{hole}-D_{shaft}
+$$
+
+**Radial Clearance:**
+
+$$
+C_r = \frac{C_d}{2}
+$$
+
+Manufacturing tolerances define the acceptable variation in component dimensions. Critical features, including shaft diameters, bearing bores, and housing pockets, require appropriate tolerances to ensure proper assembly and alignment.
+
+Engineering drawings will follow ASME Y14.5 dimensioning and tolerancing standards.
+
+<h5 style="font-size: 18px; color: navy;">Gearbox Housing Design</h5>
+
+The gearbox housing encloses and supports the internal components while maintaining proper gear alignment and rotational clearance.
+
+The distance between the two shaft centerlines is determined using the gear pitch diameters.
+
+**Gear Center Distance:**
+
+$$
+C = \frac{D_p+D_g}{2}
+$$
+
+The housing must provide:
+- Adequate radial and axial clearance around the gears.
+- Properly aligned bearing seats.
+- Sufficient structural support for the shafts and bearings.
+- Secure fastening between the two housing halves.
+- Accessibility for assembly and disassembly.
+
+A two-piece bolted housing with locating features is a suitable design approach because it allows access to the internal components while maintaining alignment.
+
+
+## Decide
+<h5 style="font-size: 18px; color: navy;">Parametric CAD Modeling and Engineering Drawings</h5>
+
+Parametric CAD modeling uses dimensions, constraints, and relationships to create adjustable solid models. Critical dimensions, such as shaft diameters, bearing locations, and gear center distance, should be controlled through defined parameters.
+
+Individual components are modeled or imported before being combined into a complete assembly.
+
+The final CAD assembly should demonstrate:
+- Correct positioning and alignment of gears and shafts.
+- Proper bearing and housing interfaces.
+- Adequate component clearances.
+- Functional assembly and disassembly.
+
+Engineering drawings communicate the final design through third-angle orthographic projections, complete dimensions, appropriate tolerances, and assembly details.
 ## Communicate
