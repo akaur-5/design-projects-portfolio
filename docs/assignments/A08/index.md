@@ -48,7 +48,7 @@ This website contains an interactive animation that presents this phenomena: [Cl
 <h5 style="font-size: 18px; color: navy;">GearTerminology</h5>
 
 <div style="text-align: center;">
-  <img src="A8_gear_terminology.jpg" alt="IKEA multi-bit screwdriver" style="width: 400px; border: 3px solid black;">
+  <img src="A8_gear_terminology.jpg" alt="Gear Terminology" style="width: 400px; border: 3px solid black;">
 </div>
 
 
