@@ -14,7 +14,7 @@
 - Document calculations, sketches, and lessons learned.
 
 ## Analyze
-####Description
+#### Description
 - Design a gearbox which can be assembled and disassembled. The spur gears have a gear ratio of 24:9 and are listed in the resource section. The output gear torque and speed are to be 1.25 in-lbf and 1100 rpm relative. The input (pinion,power-transmission) and output (gear, short shaft) shaft diameters are .125 and .25 inches respectively and each have a length of 1 inch. Use the appropriate equations in the Machinery’s Handbook for empirical units. The critical features of the gearbox include the shafts, and the journal bearings.
 
 - Assumptions: 
@@ -52,8 +52,8 @@ This website contains an interactive animation that presents this phenomena: [Cl
 </div>
 
 Terminology Description: 
-| No. | Gear Terminology | Description and Engineering Significance | Relevant Formulas |
-|---|---|---|---|
+
+| No. | Gear Terminology | Description and Engineering Significance | Relevant Formulas|
 |1|**Face Width**|The axial width of the gear tooth, measured parallel to the rotational axis. It determines the width of the tooth surface available to transmit loads. | No direct geometric formula.|
 |2|**Profile Line**|Represents the geometric profile of the gear tooth. For a standard involute gear, the tooth profile determines how adjacent teeth engage and transmit motion.|Involute function: $\operatorname{inv}(\phi)=\tan(\phi)-\phi$ (angle in radians).|
 |3|**Flank Line**| Represents the line associated with the flank geometry along the gear tooth. The flank forms part of the working tooth profile. | No direct formula. |
