@@ -120,6 +120,24 @@ n= rotational speed (rpm)
 
 If the gear train is ideal then: HP_input = HP_output. In an actual gearbox, friction and other losses would cause the output power to be lower. 
 
+<h5 style="font-size: 18px; color: navy;">Gear Tooth Forces</h5>
+
+This is significant because the gear forces are what create bending in the shafts. When two spur gears mesh, the teeth exert a force on one another. This contact force can be resolved into two components.
+
+<div style="text-align: center;">
+  <img src="A8_gear_tooth_force.jpg" alt="Gear Force" style="width: 400px; border: 3px solid black;">
+</div>
+
+  1.Tangential Force (F_t) 
+    This is the force that transmits torque between the gears. 
+    F_t=T/r 
+    or using the pitch diameter: F_t=(2T)/D 
+
+  2.Radial Force (F_r)
+    This force pushes the gears away from one another. 
+    F_r= F_ttan(
+    
+
 ## Decide
 
 
