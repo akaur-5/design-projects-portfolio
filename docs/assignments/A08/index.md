@@ -53,11 +53,11 @@ This website contains an interactive animation that presents this phenomena: [Cl
 
 Terminology Description: 
 | No. | Gear Terminology | Description and Engineering Significance | Relevant Formulas |
-|:---:|---|---|---|
-| 1 | **Face Width** | The axial width of the gear tooth, measured parallel to the rotational axis. It determines the width of the tooth surface available to transmit loads. | No direct geometric formula. |
-| 2 | **Profile Line** | Represents the geometric profile of the gear tooth. For a standard involute gear, the tooth profile determines how adjacent teeth engage and transmit motion. | Involute function: $\operatorname{inv}(\phi)=\tan(\phi)-\phi$ (angle in radians). |
-| 3 | **Flank Line** | Represents the line associated with the flank geometry along the gear tooth. The flank forms part of the working tooth profile. | No direct formula. |
-| 4 | **Addendum Circle** | The circle passing through the outermost tips of the gear teeth. It defines the outside diameter of the gear. | $D_a=D+2a$ |
+|---|---|---|---|
+|1|**Face Width**|The axial width of the gear tooth, measured parallel to the rotational axis. It determines the width of the tooth surface available to transmit loads. | No direct geometric formula.|
+|2|**Profile Line**|Represents the geometric profile of the gear tooth. For a standard involute gear, the tooth profile determines how adjacent teeth engage and transmit motion.|Involute function: $\operatorname{inv}(\phi)=\tan(\phi)-\phi$ (angle in radians).|
+|3|**Flank Line**| Represents the line associated with the flank geometry along the gear tooth. The flank forms part of the working tooth profile. | No direct formula. |
+|4|**Addendum Circle**| The circle passing through the outermost tips of the gear teeth. It defines the outside diameter of the gear. | $D_a=D+2a$ |
 | 5 | **Topland** | The top surface of an individual gear tooth, located between the two tooth flanks. | No direct formula. |
 | 6 | **Face** | The portion of the gear tooth surface located above the pitch circle. It extends from the pitch circle toward the tooth tip. | No direct formula. |
 | 7 | **Flank** | The portion of the gear tooth surface located below the pitch circle. It extends from the pitch circle toward the tooth root. | No direct formula. |
