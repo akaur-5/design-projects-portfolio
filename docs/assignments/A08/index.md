@@ -87,10 +87,38 @@ Additional Gear Terminology
 
 The gear ratio is responsible for telling us how much the rotational speed and torque change between two gears. 
 
-GR= 
+$GR=\frac{N_g}{N_p}=\frac{D_g}{D_p}$
 
+Where: 
+N_g= number of teeth on the output gear
+N_p= number of teeth on input pinion
+D_g=output gear pitch diameter 
+D_p=input pinion pitch diameter
 
+<h5 style="font-size: 18px; color: navy;">Torque</h5>
 
+Torque is the rotational equivalent of force. 
+
+$T=Fr$
+
+Where: 
+T= Torque (in-lbf)
+F= tangential force (lbf)
+r= distance from the center of rotation (in)
+
+If gear train is ideal, torque and speed are related by conservation of power: T_pn_p=T_gn_g
+
+<h5 style="font-size: 18px; color: navy;">Power</h5>
+Power describes how quickly work is being performed, for rotational systems it depends on both torque and rotational speed. 
+
+$HP=\frac{T}{n}=\frac{63025}$
+
+Where:
+HP= horsepower 
+T= torque (in-lbf)
+n= rotational speed (rpm)
+
+If the gear train is ideal then: HP_input = HP_output. In an actual gearbox, friction and other losses would cause the output power to be lower. 
 
 ## Decide
 
